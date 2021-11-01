@@ -9,26 +9,22 @@
 <script src="https://kit.fontawesome.com/790f7e2975.js" crossorigin="anonymous"></script>
 </head>
 <body>
-    <div class="header-container">
+    <div class="header-container" id="myHeader">
         <div class="logo">
-            <img class="logo-gato" src="imagenes/logogato.png">
-            <img clas="logo-texto" src="imagenes/logotexto.png">
+            <a href="index.html"><img class="logo-gato" src="imagenes/logogato.png"></a>
+            <a href="index.html"><img clas="logo-texto" src="imagenes/logotexto.png"></a>
         </div>
         <div class="top-nav-container">
-            <div class="topnav">
-                <div class="dropdown">
-                    <button class="dropbtn"><img src="imagenes/argentinaflag.png" width="20">
-                    </button>
-                    <div class="dropdown-content">
-                      <a href="productos.html"><img src="imagenes/brazilflag.png" width="20"></a>
-                      <a href="productos/accesoriosparaviajes.html"><img src="imagenes/ukflag.png" width="20"></a>
-                    </div>
-                  </div>
-                <a href="#news">Trabajos</a>
-                <a href="#contact">Revista Misterio</a>
-                <a href="#about">Blog</a>
-                <a href="#about">Contacto</a>
-                <a href="#home">Servicios</a>
+            <div class="topnav" id="myTopnav">
+                <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+                    <i class="fa fa-bars"></i>
+                <a href="contacto.html">Contacto</a>    
+                <a href="revista.html">Revista Misterio</a>
+                <a href="blog.html">Blog</a>
+                <a href="trabajos.html">Trabajos</a>
+                <a href="servicios.html">Servicios</a>
+                <a href="misteriosonido/pt.html"><img src="imagenes/brazilflag.png" width="20"></a>
+                <a href="misteriosonido/en.html"><img src="imagenes/ukflag.png" width="20"></a>
             </div>
     </div>
     </div>
@@ -45,7 +41,7 @@
     <div class="trabajo7"><img class="poster" src="imagenes/posterej.jpg"></div>
     <div class="trabajo8"><img class="poster" src="imagenes/posterej.jpg"></div>
 </div>
-<div class="h1">Ver todos los trabajos </div>
+<a href="trabajos.html"><div class="h1">Ver todos los trabajos </div><br></a>   
 
 
 <div class="info-jonas-general">
@@ -55,10 +51,6 @@
     </div>
 </div>
 <div class="footer">
-    <div class="mision">
-        <div class="footer-h1">Sobre nosotros</div>
-        nuestra mision nuestra mision nuestra mision nuestra mision nuestra mision nuestra mision nuestra mision nuestra mision nuestra mision nuestra mision nuestra mision nuestra mision nuestra mision nuestra mision nuestra mision 
-    </div>
     <div class="redes">
         <div class="footer-h1">Redes sociales</div>
         <br>
@@ -67,6 +59,10 @@
         <a href="facebook.com"><i class="fab fa-facebook-f"></i> Facebook</a><br>
         <br>
         <a href="linkedin.com"><i class="fab fa-linkedin"></i> LinkedIn</a>
+    </div>
+    <div class="mision">
+        <div class="footer-h1">Sobre nosotros</div>
+        nuestra mision nuestra mision nuestra mision nuestra mision nuestra mision nuestra mision nuestra mision nuestra mision nuestra mision nuestra mision nuestra mision nuestra mision nuestra mision nuestra mision nuestra mision 
     </div>
     <div class="info-contacto">
         <div class="footer-h1">Contacto</div>
@@ -80,5 +76,6 @@
 </div>
 
 </div>
+<script type="text/javascript" src="script.js"></script>
 </body>
 </html>
